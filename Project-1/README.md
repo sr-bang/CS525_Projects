@@ -1,50 +1,24 @@
 # DS551/CS525 2023 Fall Individual Project 1
 # Dynamic Programming of Markov Decision Process
 
-#### Starting Date
-* Week 2 Tuesday September 5, 2023(23:59)
-
-#### Due Date
-* Week 4 Tuesday September 19, 2023(23:59)
-
-#### Total Points
-* 100 (One Hundred)
-
 ## Goal
 
 * In this assignment, you will be asked to implement policy iteration and value iteration for the Frozen Lake environment (FrozenLake-v1) from [OpenAI Gymnasium](https://gymnasium.farama.org/environments/toy_text/frozen_lake/) and play the game with the algorithms you implemented. This project will be completed in Python 3.
 
-
-
-<img src="/Project1/img/hw1.png" width="80%">
+<img src="/Project-1/img/hw1.png" width="80%">
 
 * See more details of FrozenLake on [OpenAI Gymnasium](https://gymnasium.farama.org/environments/toy_text/frozen_lake/).
-
-
-* If your program works, the command line output should look like this.
-<img src="/Project1/img/UnitTest2023.png" width="80%">
-
-## Deliverables
-
-Please compress your mdp_dp.py file into a zipped file (firstName_lastName_hw1.zip) and submit it to Canvas.
-
-## Grading
-* policy evaluation (20 points)
-* policy improvement (20 points)
-* policy iteration (20 points)
-* value iteration (20 points)
-* rander game (20 points)
 
 ## Hints
 * Policy Evaluation<br/>
 <span style="color:red">**Please note that reward can be defined on (state), (state, action), (state, action, next_state). In this assignment, we define the reward on (state,action,next_state).** The following pseudocode is the general method.</span>
-<img src="/Project1/img/pe.png" width="80%" >
+<img src="/Project-1/img/pe.png" width="80%" >
 
 * Policy Iteration<br/>
-<img src="/Project1/img/pi.png" width="80%" >
+<img src="/Project-1/img/pi.png" width="80%" >
 
 * Value Iteration<br/>
-<img src="/Project1/img/vi.png" width="80%" >
+<img src="/Project-1/img/vi.png" width="80%" >
 
 
 ## Setup
@@ -63,7 +37,6 @@ Please compress your mdp_dp.py file into a zipped file (firstName_lastName_hw1.z
 - So when you install your gym, please use command line pip install "gymnasium[atari]". 
 ```
 
-
 ## Guidelines
 * Implement functions in mdp_dp.py
 * Evaluate functions by typing "nosetests -v mdp_dp_test.py" in terminal (you need put mdp_dp.py and mdp_dp_test.py in the same folder)
@@ -77,3 +50,6 @@ Please compress your mdp_dp.py file into a zipped file (firstName_lastName_hw1.z
 [OpenAI Gym Documentation 1](https://gymnasium.farama.org/)
 
 [OpenAI Gym Documentation 2](https://github.com/Farama-Foundation/Gymnasium)
+
+
+## Results
