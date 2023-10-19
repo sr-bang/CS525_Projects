@@ -1,12 +1,5 @@
-
-# Individual Project 2
+# DS551/CS525 2023 Fall Individual Project 2
 # Model-free Algorithms (Monte-Carlo and Temporal Difference)
-
-#### Due Date
-* Wednesday Mar 2, 2022 (23:59)
-
-#### Total Points
-* 100 (One Hundred)
 
 ## Goals
 In this project, you will be asked to implement two model-free algorithms. The first one is Monte-Carlo(MC), including  the first visit of on-policy MC prediction and on-policy MC control for [blackjack](https://gym.openai.com/envs/Blackjack-v0/). The second one is Temporal-Difference(TD), including Sarsa(on-policy) and Q-Learning(off-policy) for [cliffwalking](https://github.com/openai/gym/blob/master/gym/envs/toy_text/cliffwalking.py).
@@ -19,20 +12,6 @@ In this project, you will be asked to implement two model-free algorithms. The f
 * Evaluate functions by typing "nosetests -v mc_test.py" and "nosetests -v td_test.py" respectively, or try "python3 -m nose -v mc_test.py" and "python3 -m nose -v td_test.py". (put your function file and test file into the same folder).
 * Note: If your code is correct, it will pass all the tests in most cases, but it may fail sometimes (because epsilon-greedy policy will produce randomness), so once you codes fail, please run the test file three times to see if the failure is caused by policy randomness or by your wrong code. (The correct code usually passes the all the tests within 3 times runing).
 * <span style="color:blue">**TA will run your code three times. You will get full credits if one of the tests passes.**</span><br/>
-
-## Deliverables
-
-Please compress your mc.py and td.py files into a zip file (firstName_lastName_hw2.zip) and submit it to Canvas.
-
-## Grading
-
-* Initial policy (2 points)
-* Epsilon greedy policy (8 points)
-* MC prediction (first visit, on-policy) (20 points)
-* MC control (first visit, on-policy) (20 points)
-* Sarsa (25 points)
-* Q-Learning (25 points)<br/>
-
 
 ## Hints
 * On-policy first visit Monte-Carlo prediction
@@ -47,5 +26,11 @@ Please compress your mc.py and td.py files into a zip file (firstName_lastName_h
 * Q-learing (off-policy TD control)
 <img src="https://github.com/yingxue-zhang/DS595CS525-RL-Projects/blob/master/Project2/img/q-learning.png" width="80%" >
 
+## Results
 
+#### Result for Monte-Carlo(MC)
+<img src="https://github.com/yingxue-zhang/DS595CS525-RL-Projects/blob/master/Project2/img/mc.png" width="80%" >
+
+#### Result for Temporal-Difference(TD)
+<img src="https://github.com/yingxue-zhang/DS595CS525-RL-Projects/blob/master/Project2/img/mc.png" width="80%" >
 
