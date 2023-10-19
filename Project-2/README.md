@@ -15,22 +15,22 @@ In this project, you will be asked to implement two model-free algorithms. The f
 
 ## Hints
 * On-policy first visit Monte-Carlo prediction
-<img src="https://github.com/yingxue-zhang/DS595CS525-RL-Projects/blob/master/Project2/img/mc_predict.png" width="80%" >
+<img src="https://github.com/Project-2/img/mc_predict.png" width="80%" >
 
 * On-policy first visit Monte-Carlo control
-<img src="https://github.com/yingxue-zhang/DS595CS525-RL-Projects/blob/master/Project2/img/mc.png" width="80%" >
+<img src="https://github.com/Project-2/img/mc.png" width="80%" >
 
 * Sarsa (on-policy TD control)
-<img src="https://github.com/yingxue-zhang/DS595CS525-RL-Projects/blob/master/Project2/img/sarsa.png" width="80%" >
+<img src="https://github.com/Project-2/img/sarsa.png" width="80%" >
 
 * Q-learing (off-policy TD control)
-<img src="https://github.com/yingxue-zhang/DS595CS525-RL-Projects/blob/master/Project2/img/q-learning.png" width="80%" >
+<img src="https://github.com/Project-2/img/q-learning.png" width="80%" >
 
 ## Results
 
 #### Result for Monte-Carlo(MC)
-<img src="https://github.com/yingxue-zhang/DS595CS525-RL-Projects/blob/master/Project2/img/mc.png" width="80%" >
+<img src="https://github.com/Project-2/img/result1.png" width="80%" >
 
 #### Result for Temporal-Difference(TD)
-<img src="https://github.com/yingxue-zhang/DS595CS525-RL-Projects/blob/master/Project2/img/mc.png" width="80%" >
+<img src="https://github.com/Project-2/img/result2.png" width="80%" >
 
