@@ -1,1 +1,1 @@
-# CS525_Projects
+#### Reinforcement Learning Course Projects
